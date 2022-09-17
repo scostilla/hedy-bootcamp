@@ -1,0 +1,31 @@
+.component{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+}
+
+.app-users{
+    display: flex;
+    background-color: brown; 
+    flex-flow: row;
+    border-radius: 1%;
+    margin: 10%;
+}
+.user-1{
+    background-color: blueviolet; 
+    border-radius: 1%;
+    margin: 5%;
+}
+.user-2{
+    background-color: aquamarine; 
+    border-radius: 1%;
+    margin: 5%;
+}
+.user-3{
+    background-color: aqua; 
+    border-radius: 1%;
+    margin: 5%;
+}
