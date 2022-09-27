@@ -1,10 +1,11 @@
 import './App.css';
 import NewComponent from './components/Component';
 import Cars from './components/car/Cars';
+import CarsAsync from './components/car/CarsAsync';
 
 function App() {
   return(
-    <Cars/>
+    <CarsAsync/>
   )
 }
 
