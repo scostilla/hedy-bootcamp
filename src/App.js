@@ -1,13 +1,11 @@
 import { useState } from 'react';
 import './App.css';
-import Abm from './components/Abm';
+import AbmFetch from './components/AbmFetch';
 
 function App() {
   return(
     <div>
-      <div>
-        <Abm bandera="render"/>
-      </div>
+      <AbmFetch/>
     </div>
   )
 }
