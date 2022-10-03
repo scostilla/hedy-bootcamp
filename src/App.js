@@ -6,7 +6,7 @@ function App() {
   return(
     <div>
       <div>
-        <Abm/>
+        <Abm bandera="render"/>
       </div>
     </div>
   )
