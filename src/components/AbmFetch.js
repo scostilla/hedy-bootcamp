@@ -15,7 +15,7 @@ const AbmFetch = () => {
 
     const apiUrl = 'https://63321e993ea4956cfb6d3044.mockapi.io/cars/';
 
-    const id = '1';
+    const id = '2';
     
    const car = {
     "company": "Fiat",
