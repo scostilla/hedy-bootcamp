@@ -29,7 +29,7 @@ const Cars = () => {
             <button onClick={() => setCount(count + value)}>Sumar valor alatorio</button>
             <p>
                 <h1>CARRERAS MAS FAMOSAS</h1>
-                <table id="races">
+                <table className="table">
                     <tr>
                         <th>Evnto</th> <th>Tipo de Carrera</th> <th>Maximo Ganador</th>
                     </tr>
