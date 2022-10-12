@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import AbmFetch from './components/AbmFetch';
-import AbmAxios from './components/AbmAxios';
+import Home from './components/Home';
+
 
 function App() {
   return(
     <div>
-      <AbmAxios/>
+      <Home/>
     </div>
   )
 }

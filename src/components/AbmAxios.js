@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./component.css";
 import { getDefaultNormalizer } from "@testing-library/react";
 
 /*
@@ -45,35 +46,35 @@ const AbmAxios = () => {
       <button onClick={() => GetData()}> GET POST</button>
       <br />
       {!getData ? null : (
-          <table className="table">
-            <thead>
-              <tr>
-            <td>nombre</td>
-            <td>simbolo</td>
-            <td>precio</td>
-            <td>MCR</td>
-            <td>MC</td>
-            <td>imagen</td>
+        <table className="table">
+          <thead>
+            <tr>
+              <td>nombre</td>
+              <td>simbolo</td>
+              <td>precio</td>
+              <td>MCR</td>
+              <td>MC</td>
+              <td>imagen</td>
             </tr>
+          </thead>
 
-            </thead>
-          
           {getData.map((data) => {
             return (
               <tbody>
-            <tr>
-                <td>{data.id}</td>
-                <td>{data.symbol}</td>
-                <td>{data.current_price}</td>
-                <td>{data.market_cap_rank}</td>
-                <td>{data.market_cap}</td>
-                <td><img src={data.image} className="thumbnail"/></td>
-            </tr>
-
+                <tr>
+                  <td>{data.id}</td>
+                  <td>{data.symbol}</td>
+                  <td>{data.current_price}</td>
+                  <td>{data.market_cap_rank}</td>
+                  <td>{data.market_cap}</td>
+                  <td>
+                    <img src={data.image} className="thumbnail" />
+                  </td>
+                </tr>
               </tbody>
             );
           })}
-          </table>
+        </table>
       )}
     </div>
   );
