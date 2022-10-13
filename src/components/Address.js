@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import './component.css'
 
-const NewComponent = (props) =>{
+const Address = (props) =>{
   let addressList = [
     {id: 1, street: "Belgrano", number:"1553"},
     {id: 2, street: "San Martin", number:"127"},
@@ -15,7 +15,7 @@ const NewComponent = (props) =>{
         {addressList.map((address)=>{
           return(
             <div key={address.id}>
-              <p><span className="title">Calle: </span>{address.street}<span className="title"> - Número: </span>{address.number}</p>
+              <p><span className="title">Calle: </span>{address.street}<span className="title"> Número: </span>{address.number}</p>
             </div>
           )
         })}
@@ -24,4 +24,4 @@ const NewComponent = (props) =>{
 }
 
 
-export default NewComponent;
+export default Address;
