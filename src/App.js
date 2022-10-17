@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import './App.css';
 import Home from './components/Home';
+import Paragraph from './components/Paragraph';
+import ParagraphClase from './components/ParagraphClase';
 
 
 function App() {
   return(
     <div>
-      <Home/>
+      {/* <ParagraphClase/> */}
+      <Paragraph/>
     </div>
   )
 }

@@ -4,7 +4,6 @@
 }
 
 body {
-    background-image: url("https://www.solotc.com.ar/wp-content/uploads/2022/05/TC-Rafaela.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
@@ -74,3 +73,34 @@ body {
   .thumbnail{
     width: 15%;
   }
+
+  .red-paragraph{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.green-paragraph{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.blue-paragraph{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.black-paragraph{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rigth{
+  text-align: right;
+}
+
+.center{
+  text-align: center;
+}
+
+.left{
+  text-align: left;
+}
