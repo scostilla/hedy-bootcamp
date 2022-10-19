@@ -34,11 +34,23 @@ const EventParagraph = () => {
             setNewColor("red-paragraph");
         console.log("caso red-paragraph");
         break;
+        case "R":
+            setNewColor("red-paragraph");
+        console.log("caso red-paragraph");
+        break;
         case "a":
             setNewColor("blue-paragraph");
         console.log("caso blue-paragraph");
         break;
+        case "A":
+            setNewColor("blue-paragraph");
+        console.log("caso blue-paragraph");
+        break;
         case "v":
+            setNewColor("green-paragraph");
+        console.log("caso green-paragraph");
+        break;
+        case "V":
             setNewColor("green-paragraph");
         console.log("caso green-paragraph");
         break;

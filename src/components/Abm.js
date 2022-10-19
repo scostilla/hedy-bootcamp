@@ -4,7 +4,7 @@ import "./component.css";
 const Abm = (props) => {
   const [abmClass, SetAbmClass] = useState("abm-container-red");
 
-  if (!props.bandera) return null;
+  /* if (!props.bandera) return null; */
 
   const ChangeColor = () => {
     if (abmClass === "abm-container-red") {
@@ -30,7 +30,7 @@ const Abm = (props) => {
           <input type="text"></input>
           <button type="submit">Submit me</button>
         </div>
-        <button onClick={() => ChangeColor()}>Change my ABM background</button>
+        <button onClick={() => ChangeColor()}>Cambiar color de fondo</button>
       </div>
     </div>
   );
