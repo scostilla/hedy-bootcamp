@@ -104,3 +104,7 @@ body {
 .left{
   text-align: left;
 }
+
+.image{
+  width: 200px;
+}
